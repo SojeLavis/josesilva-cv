@@ -1,4 +1,4 @@
-[module]
-  [module.hugoVersion]
-    theme = "hugo-noir"
-    extended = true 
+theme = "hugo-noir"
+baseURL = "https://sojelavis.github.io/josesilva-cv/"
+languageCode = 'en-us'
+title = 'José Silva'
