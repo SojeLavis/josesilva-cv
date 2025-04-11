@@ -11,7 +11,7 @@ canonifyURLs = true
 [params]
 name = "José Silva"
 location = "Porto, Portugal"
-description = "Cloud Network Engineer @ Microsoft"
+description = "Cloud Network Engineer. Automation Enthusiast. I design high-performance datacenter networks, integrate security, and streamline both deployments and ops with code."
 profile_image = "/images/profile.jpg"
 github = "https://github.com/SojeLavis"
 github_username = "sojelavis"
