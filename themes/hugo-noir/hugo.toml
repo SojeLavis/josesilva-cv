@@ -55,54 +55,55 @@ tech = "TypeScript, React, GraphQL, Docker"
 image = "/images/projects/django.png"
 link = "https://github.com/sojelavis"
 
+
+[[params.certifications]]
+title = "DevNet Class of 2020 – Cisco DevNet"
+date = "Sep 2020 - Now"
+
 [[params.certifications]]
 title = "Cisco Certified DevNet Professional"
-date = "Jun 2024 - Jun 2027"
-
-[[params.certifications]]
-title = "Azure Network Engineer Associate"
-date = "Apr 2022 - Apr 2023"
-
-[[params.certifications]]
-title = "Azure Networking Internal Support Assessment"
-date = "Microsoft Internal - 2023"
-
-[[params.certifications]]
-title = "Microsoft Certified: Azure Fundamentals"
-date = "2023"
+date = "Jun 2024 - Now"
 
 [[params.certifications]]
 title = "Cisco Certified DevNet Associate"
-date = "Oct 2020 - Jul 2024"
-
-[[params.certifications]]
-title = "Cisco Certified Network Associate (CCNA R&S)"
-date = "Jan 2020 - Jul 2024"
+date = "Oct 2020 - Now"
 
 [[params.certifications]]
 title = "Cisco Certified Networking Professional – Enterprise"
-date = "Jan 2021 - Jul 2024"
-
-[[params.certifications]]
-title = "Cisco Certified Specialist – Enterprise Advanced Infrastructure Implementation"
-date = "2024"
+date = "Jan 2021 - JNow"
 
 [[params.certifications]]
 title = "Cisco Certified Specialist – Enterprise Design"
 date = "2024"
 
 [[params.certifications]]
-title = "IT Service Management – AXELOS Global Best Practice"
-date = "Jun 2020"
+title = "Cisco Certified Specialist – Enterprise Advanced Infrastructure Implementation"
+date = "2024"
 
 [[params.certifications]]
-title = "DevNet Class of 2020 – Cisco DevNet"
-date = "Sep 2020"
+title = "Cisco Certified Network Associate (CCNA R&S)"
+date = "Jan 2020 - Now"
+
+[[params.certifications]]
+title = "Microsoft Certified: Azure Fundamentals"
+date = "2023- Now"
+
+[[params.certifications]]
+title = "Azure Network Engineer Associate"
+date = "Apr 2022 - Apr 2023"
+
+[[params.certifications]]
+title = "IT Service Management – AXELOS Global Best Practice"
+date = "Jun 2020"
 
 [menu]
   [[menu.main]]
     name = "About"
     url = "#about"
+    weight = 1
+  [[menu.main]]
+    name = "Certifications"
+    url = "#certifications"
     weight = 1
   [[menu.main]]
     name = "Experience"
