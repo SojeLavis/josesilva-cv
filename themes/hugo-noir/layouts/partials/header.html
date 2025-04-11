@@ -1,7 +1,6 @@
 {{ $currentPage := . }}
 <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C0RTF18BT4"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -36,7 +35,7 @@
             <nav class="hidden md:flex flex-wrap justify-center items-center gap-4 md:gap-6">
                 <!-- <a href="{{ .Site.BaseURL }}" class="inline-block text-lg text-gray-300 hover:text-white transition-colors duration-300 {{ if .IsHome }}text-white font-semibold{{ end }}">Home</a> -->
                 {{ range .Site.Menus.main }}
-                <a href="{{ .URL | absURL }}" class="inline-block text-lg text-gray-300 hover:text-white transition-colors duration-300 {{ if eq $currentPage.RelPermalink .URL }}text-white font-semibold{{ end }}">{{ .Name }}</a>
+                <a href="{{ .URL }}" class="inline-block text-lg text-gray-300 hover:text-white transition-colors duration-300 {{ if eq $currentPage.RelPermalink .URL }}text-white font-semibold{{ end }}">{{ .Name }}</a>
                 {{ end }}
             </nav>
             <div class="hidden md:flex justify-end">
@@ -61,7 +60,7 @@
             </div>
             <nav class="flex flex-col p-6 space-y-4">
                 {{ range .Site.Menus.main }}
-                <a href="{{ .URL | absURL }}" class="text-xl text-gray-300 hover:text-white transition-colors duration-300 {{ if eq $currentPage.RelPermalink .URL }}text-white font-semibold{{ end }}">{{ .Name }}</a>
+                <a href="{{ .URL }}" class="text-xl text-gray-300 hover:text-white transition-colors duration-300 {{ if eq $currentPage.RelPermalink .URL }}text-white font-semibold{{ end }}">{{ .Name }}</a>
                 {{ end }}
             </nav>
             <div class="mt-auto p-6 border-t border-gray-800">
