@@ -1,5 +1,4 @@
 [module]
   [module.hugoVersion]
     theme = "hugo-noir"
-    extended = true
-    min = "0.92.0"  
+    extended = true 
