@@ -1,4 +1,4 @@
 theme = "hugo-noir"
-baseURL = "https://sojelavis.github.io/josesilva-cv/"
+baseURL = "https://sojelavis.com/"
 languageCode = 'en-us'
 title = 'José Silva'
